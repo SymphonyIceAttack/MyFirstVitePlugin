@@ -1,10 +1,13 @@
 {
   "name": "@symphonyiceattack/my-first-vite-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs.js",
   "browser": "./dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "url": "https://github.com/SymphonyIceAttack/MyFirstVitePlugin"
   },
