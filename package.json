@@ -1,6 +1,6 @@
 {
-  "name": "my-first-vite-plugin",
-  "version": "1.0.6",
+  "name": "@symphonyiceattack/my-first-vite-plugin",
+  "version": "1.0.7",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs.js",
