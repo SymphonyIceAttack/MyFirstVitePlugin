@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-template",
-  "version": "1.0.1",
+  "name": "@SymphonyIceAttack/vite-plugin-template",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs.js",
@@ -20,7 +20,7 @@
     "test": "vitest",
     "watch": "vitest watch --coverage",
     "example:react": "cd examples/vite-react && yarn build",
-    "release": "npx bumpp --push --tag --commit && yarn publish"
+    "release": "npx bumpp --push --tag --commit && yarn publish  --access=public"
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.24.3",
